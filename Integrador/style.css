@@ -1,0 +1,74 @@
+#conferencia{
+    background-image: url(./assets/ba1.jpg);
+}
+.back-image{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../images/ba1.jpg);
+    height: 650px;
+    background-size: cover;
+    background-position: 50% 60%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    }
+
+.space{
+    font-size: .8em;
+    }
+
+.space p{
+    font-size: 2em;
+    font-weight: bold;
+    }
+
+.card{
+    width: 20rem;
+    border: none;
+    }
+
+.know-content{
+    background-color: rgb(53, 58, 64);
+    }
+
+.dotted-text{
+    text-decoration: underline dotted;
+    }
+
+.btn-send{
+    background-color: rgb(150, 201, 62);
+    border: none;
+    border-radius: 5px;
+    }
+
+footer{
+    background: rgb(29,55,68);
+    background: linear-gradient(90deg, rgba(29,55,68,1) 0%, rgba(29,65,87,1) 50%, rgba(30,76,102,1) 100%);
+    padding: 2rem;
+    }
+
+footer a{
+    text-decoration: none;
+    color: white;
+    padding: .5rem;
+    
+    }
+
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+
+@media all and (max-width: 763px) {
+
+    footer{
+    display: flex;
+    flex-wrap: wrap;
+    height: 320px;
+}
+
+footer a{
+    width: 300px;
+    text-align: center;
+}
+
+}
